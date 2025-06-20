@@ -14,9 +14,6 @@ Mendukung banyak wallet, proxy per wallet, randomisasi, dan fitur keamanan premi
 - ✅ Auto Bridge + Stake setiap hari
 - ✅ Random volume & delay (simulasi manusia)
 - ✅ Fee checker → skip TX kalau saldo native kurang
-- ✅ Gas monitor → TX di-skip kalau gas terlalu mahal
-- ✅ Retry otomatis saat TX gagal
-- ✅ Export TX log ke file CSV
 - ✅ Manual config editor untuk pengaturan volume + frekuensi
 
 ---
@@ -26,8 +23,8 @@ Mendukung banyak wallet, proxy per wallet, randomisasi, dan fitur keamanan premi
 ### 1. Clone repository:
 
 ```bash
-git clone https://github.com/NAMA-KAMU/jalancuan---helios-auto-tx.git
-cd jalancuan---helios-auto-tx
+git clonehttps://github.com/iF3tih-digitalab/Helios-AutoTx.git
+cd Helios-AutoTx
 ```
 
 ### 2. Install dependencies:
@@ -46,22 +43,23 @@ npm start
 
 ## 📋 Format Input Wallet & Proxy
 
-- Private Key dipisah dengan koma `,`
+- Private Key dipisah dengan enter
   ```
-  0xabc...,0xdef...,0x123...
+  0xabc...
+  0xdef...
+  0x123...
   ```
 
 - Proxy format:
   ```
-  http://user:pass@1.2.3.4:8000,socks5://5.6.7.8:1080
+  http://user:pass@1.2.3.4:8000
+  socks5://5.6.7.8:1080
   ```
 
 ---
 
 ## 🛡️ Catatan Keamanan
 
-- Private key **tidak disimpan ke file**
-- Semua proses dijalankan langsung di memori (RAM)
 - Jangan gunakan wallet utama untuk bot (gunakan wallet farming)
 
 ---
@@ -69,7 +67,7 @@ npm start
 ## 👨‍💻 Developer
 
 Built with ❤️ by [Rizal Hilaluzaman](https://github.com/iF3tih-digitalab)  
-Twitter: [@jalancuan_id](https://twitter.com/jalancuan_id)
+Twitter: [@jalancuan_id](https://twitter.com/jalancuan__)
 
 ---
 
